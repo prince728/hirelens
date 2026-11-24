@@ -17,7 +17,7 @@ class Experience(BaseModel):
 
 class Project(BaseModel): 
     name:str |None =None 
-    technologies: list[str] = Feild(default_factory=list)
+    technologies: list[str] = Field(default_factory=list)
     start_date: str | None = Field(None, description="YYYY-MM, or YYYY if the month is not given")
     end_date: str | None = Field(None, description="YYYY-MM, or 'Present' if ongoing")
     bullet_points: list[str]=Field(default_factory=list)
