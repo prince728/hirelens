@@ -1,7 +1,14 @@
 {
   "name": "HireLens",
   "image": "mcr.microsoft.com/devcontainers/python:3.12",
-  "postCreateCommand": "pip install uv && uv sync",
+  "containerEnv": {
+    "UV_PROJECT_ENVIRONMENT": "/home/vscode/.venv",
+    "UV_HTTP_TIMEOUT": "120"
+  },
+  "remoteEnv": {
+    "PATH": "${containerEnv:PATH}:/home/vscode/.local/bin"
+  },
+  "postCreateCommand": "pip install --user uv && /home/vscode/.local/bin/uv sync",
   "forwardPorts": [8000],
   "customizations": {
     "vscode": {
