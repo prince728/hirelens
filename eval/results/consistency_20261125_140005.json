@@ -1,0 +1,179 @@
+{
+  "file": "Prince_Gupta_Resume.pdf",
+  "summary": {
+    "total_runs": 10,
+    "ok": 5,
+    "empty": 3,
+    "errors": 2,
+    "skills_per_run": {
+      "min": 0,
+      "max": 25,
+      "mean": 12.2
+    },
+    "mean_skill_similarity": 0.282,
+    "stable_skills": [],
+    "unstable_skills": {
+      "api integration": "2/5",
+      "arrays": "1/5",
+      "caching strategies": "1/5",
+      "docker": "3/5",
+      "dynamic programming": "1/5",
+      "express.js": "3/5",
+      "full-stack web development": "3/5",
+      "git": "3/5",
+      "graphs": "1/5",
+      "groq ai api": "3/5",
+      "jwt authentication": "3/5",
+      "linked lists": "1/5",
+      "mongodb": "3/5",
+      "node.js": "4/5",
+      "postgresql": "3/5",
+      "prisma orm": "3/5",
+      "rate limiting": "2/5",
+      "react.js": "4/5",
+      "recursion (c++)": "1/5",
+      "redis": "3/5",
+      "responsive web design": "4/5",
+      "rest apis": "3/5",
+      "strings": "1/5",
+      "tailwind css": "4/5",
+      "trees": "1/5"
+    },
+    "total_unverified": 0,
+    "mean_seconds": 29.8
+  },
+  "runs": [
+    {
+      "status": "error",
+      "error": "BadRequestError: Error code: 400 - {'error': {'message': \"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\", 'type': 'invalid_request_error', 'code': 'json_validate_failed'",
+      "seconds": 8.151176929473877
+    },
+    {
+      "status": "error",
+      "error": "BadRequestError: Error code: 400 - {'error': {'message': \"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\", 'type': 'invalid_request_error', 'code': 'json_validate_failed'",
+      "seconds": 11.146757125854492
+    },
+    {
+      "status": "ok",
+      "seconds": 34.32559514045715,
+      "skills": [
+        "api integration",
+        "docker",
+        "express.js",
+        "full-stack web development",
+        "git",
+        "groq ai api",
+        "jwt authentication",
+        "mongodb",
+        "node.js",
+        "postgresql",
+        "prisma orm",
+        "rate limiting",
+        "react.js",
+        "redis",
+        "responsive web design",
+        "rest apis",
+        "tailwind css"
+      ],
+      "projects": 2,
+      "experience": 0,
+      "verified": 14,
+      "unverified": 0
+    },
+    {
+      "status": "empty",
+      "seconds": 34.607820987701416
+    },
+    {
+      "status": "ok",
+      "seconds": 34.451433420181274,
+      "skills": [
+        "docker",
+        "express.js",
+        "full-stack web development",
+        "git",
+        "groq ai api",
+        "jwt authentication",
+        "mongodb",
+        "node.js",
+        "postgresql",
+        "prisma orm",
+        "react.js",
+        "redis",
+        "responsive web design",
+        "rest apis",
+        "tailwind css"
+      ],
+      "projects": 2,
+      "experience": 0,
+      "verified": 17,
+      "unverified": 0
+    },
+    {
+      "status": "ok",
+      "seconds": 34.894964933395386,
+      "skills": [],
+      "projects": 1,
+      "experience": 0,
+      "verified": 1,
+      "unverified": 0
+    },
+    {
+      "status": "ok",
+      "seconds": 34.463202476501465,
+      "skills": [
+        "api integration",
+        "arrays",
+        "caching strategies",
+        "docker",
+        "dynamic programming",
+        "express.js",
+        "full-stack web development",
+        "git",
+        "graphs",
+        "groq ai api",
+        "jwt authentication",
+        "linked lists",
+        "mongodb",
+        "node.js",
+        "postgresql",
+        "prisma orm",
+        "rate limiting",
+        "react.js",
+        "recursion (c++)",
+        "redis",
+        "responsive web design",
+        "rest apis",
+        "strings",
+        "tailwind css",
+        "trees"
+      ],
+      "projects": 0,
+      "experience": 0,
+      "verified": 16,
+      "unverified": 0
+    },
+    {
+      "status": "empty",
+      "seconds": 34.19317317008972
+    },
+    {
+      "status": "ok",
+      "seconds": 34.641730070114136,
+      "skills": [
+        "node.js",
+        "react.js",
+        "responsive web design",
+        "tailwind css"
+      ],
+      "projects": 2,
+      "experience": 0,
+      "verified": 5,
+      "unverified": 0
+    },
+    {
+      "status": "empty",
+      "seconds": 37.31448769569397
+    }
+  ]
+}
